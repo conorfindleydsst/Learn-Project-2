@@ -1,0 +1,93 @@
+/* ----- structure ----- */
+
+html, body {
+  margin:0px;
+  padding:0px;
+}
+
+header {
+  position:fixed;
+  z-index: 1;
+  width:100%;
+  height: 120px;
+  background:rgba(0,0,0,0.1);
+  font-family: 'Saira Extra Condensed', sans-serif;
+}
+
+main {
+  min-height: 400px;
+  background-color: #fff;
+}
+
+footer {
+  height: 150px;
+  background-color: #bdcbd9;
+}
+
+.wrapper {
+  width: 980px;
+  margin: auto;
+}
+
+.wrapper:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+/* ----- logo ----- */
+
+header h1 {
+  float: left;
+  font-size: 40px;
+  margin: 0;
+  padding-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+header h1 a {
+  text-decoration: none;
+  color: white;
+}
+
+header h1 a:hover {
+  color: red;
+}
+
+
+/* ----- navigation ----- */
+
+#top-nav {
+  float: right;
+  margin-top: 72px;
+}
+
+#top-nav ul {
+  margin: 0;
+  list-style: none;
+}
+
+#top-nav ul li {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+#top-nav ul li a {
+  font-size: 18px;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+#top-nav ul li a:hover {
+  color: red;
+}
+
+#hero {
+  background:url(Logo.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size: 100%;
+}

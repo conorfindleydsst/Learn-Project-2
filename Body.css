@@ -1,0 +1,80 @@
+html{
+  background-color: #8C4843;
+    font-family: 'Libre Barcode 39 Text', cursive;
+}
+
+main{
+  background-color: #E9E6FF;
+}
+
+h2{
+  font-size: 40px;
+}
+
+p{
+  font-size: 25px;
+}
+
+.ads{
+  clear: right;
+  float: right;
+  width: 600px;
+}
+
+.pics{
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.beards{
+  margin-top: 25px;
+  margin-bottom: 25px;
+  clear: left;
+  float: left;
+  width: 700px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;;
+}
+
+a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+@media screen and (max-width: 1364px){
+  {font-size: 15px;
+  }
+
+  .beards{
+    width: 200px;
+    text-decoration: overline;
+    text-decoration-color: yellow;
+    font-family: Papyrus;
+  }
+
+  .ads{
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 1365px){
+
+}
